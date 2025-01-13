@@ -22,3 +22,4 @@ module.exports = {
   updateTodo,
   deleteTodo,
 };
+// This code defines a login function that checks if a user exists in the database and returns a JWT token if the user is found. The token is signed using the JWT_SECRET environment variable and has an expiration time of 1 hour. The login function is then exported along with other controller functions for handling CRUD operations on todos.
